@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowave Sign-In</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  </head>
+
+  <body
+    class="bg-gray-50 text-gray-800 flex flex-col items-center justify-center min-h-screen text-center p-6"
+  >
+    <main class="w-full max-w-sm flex flex-col items-center">
+      <h1 class="text-3xl font-extrabold text-indigo-600 mb-2">
+        Flowave Sign-In
+      </h1>
+      <p class="text-gray-500 text-base mb-8">
+        Open the Flowave app on your phone, go to <strong>Sign in with QR</strong>,
+        and scan the code below to continue.
+      </p>
+
+      <div
+        id="qrContainer"
+        class="bg-white p-5 rounded-2xl shadow-md flex items-center justify-center"
+      >
+        <!-- QR will be inserted here dynamically -->
+      </div>
+
+      <p id="status" class="mt-6 text-gray-400 text-sm italic"></p>
+    </main>
+
+    <footer class="text-xs text-gray-400 mt-10 text-center">
+      <p>Flowave — Secure sign-in made simple.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
