@@ -13,6 +13,9 @@ export class UiWeb extends UiBase {
             console.error('Canvas not found.');
             return;
         }
+
+        // Show the container
+        this.#qrContainer.classList.remove('hidden');
     
         // Clear previous QR if re-rendered
         this.#qrContainer.innerHTML = '';
