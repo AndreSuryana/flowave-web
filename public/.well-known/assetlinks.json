@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.andresuryana.flowave",
+      "sha256_cert_fingerprints": [
+        "D5:FC:ED:AF:9A:D4:C6:3F:00:79:4D:7E:65:93:40:CC:1F:6D:7F:FE:B4:69:E3:8A:48:BE:5C:CC:F7:CE:2F:CF"
+      ]
+    }
+  }
+]
